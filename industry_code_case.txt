@@ -1,9 +1,26 @@
-20 貼現 21 透支 22 擔保透支 23 短期放款
-24 短期擔保放款 25 中期放款 26 中期擔保放款 37 長期放款
-38 長期擔保放款 40 拆放銀行同業 41 應收帳款 42 應收承兌票款
-43 應收代收款 44 應收代放款 45 應收保證款項 46 應收信用狀款項 47 催收款項 53 應收代收款 54 應收代放款  
+CASE ACC_CODE
 
+    WHEN '20' THEN '貼現'
+    WHEN '21' THEN '透支'
+    WHEN '22' THEN '擔保透支'
+    WHEN '23' THEN '短期放款'
+    WHEN '24' THEN '短期擔保放款'
+    WHEN '25' THEN '中期放款'
+    WHEN '26' THEN '中期擔保放款'
+    WHEN '37' THEN '長期放款'
+    WHEN '38' THEN '長期擔保放款'
+    WHEN '40' THEN '拆放銀行同業'
+    WHEN '41' THEN '應收帳款'
+    WHEN '42' THEN '應收承兌票款'
+    WHEN '43' THEN '應收代收款'
+    WHEN '44' THEN '應收代放款'
+    WHEN '45' THEN '應收保證款項'
+    WHEN '46' THEN '應收信用狀款項'
+    WHEN '47' THEN '催收款項'
+    WHEN '53' THEN '應收代收款'
+    WHEN '54' THEN '應收代放款'
 
+END
 
 
 
